@@ -1,3 +1,5 @@
+package Lab;
+
 public class Lab3 {
   public static void main(String[] args) {
     // 원의 반지름을 double 타입 변수 선언 후 값을 5.0으로 초기화

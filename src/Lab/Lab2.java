@@ -1,3 +1,5 @@
+package Lab;
+
 public class Lab2 {
   public static void main(String[] args) {
     byte maxValue = 127; // byte type의 최대 값
