@@ -1,6 +1,6 @@
 package Lab.src.cobo.Chap4;
 
-public class E4_9 {
+public class Ex4_9 {
   public static void main(String[] args) {
     int sum = 0;
 
