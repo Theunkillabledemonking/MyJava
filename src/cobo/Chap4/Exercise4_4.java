@@ -11,7 +11,7 @@ public class Exercise4_4 {
             } else {
                 sum += i;
             }
-            System.out.println("혅 합:" + sum);
+            System.out.println("현재 합:" + sum);
             i++;
         }
 
