@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f965b616-7af2-48f5-8d85-6381f1dbdf53" name="변경" comment="2241023" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Lab" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;MERGED&quot;,
+      &quot;assignee&quot;: &quot;Theunkillabledemonking&quot;
+    },
+    {
+      &quot;state&quot;: &quot;CLOSED&quot;,
+      &quot;assignee&quot;: &quot;Theunkillabledemonking&quot;,
+      &quot;author&quot;: &quot;Theunkillabledemonking&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Theunkillabledemonking/Java_project.git&quot;,
+    &quot;accountId&quot;: &quot;1f929294-4853-4846-8e67-009248727c46&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2nHyyHfvfNbjNny3vP940ka2Noo" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.j1024.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/Java_project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;애플리케이션.E4_9.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ex4_11.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ex4_12.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ex4_13.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ex4_14.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ex4_15.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ex4_17.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ex4_18.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ex4_19.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ex4_3.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ex4_4.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ex4_6.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ex4_7.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ex4_8.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Excercise3_2.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Exercise3_1.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Exercise3_3.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Exercise3_4.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Exercise3_5.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Exercise3_6.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Exercise3_7.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Exercise3_8.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Exercise3_9.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Exercise4_5.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Exercise_3_10.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Hello.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.MyFirstClass.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.cha3plus.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.e123.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.j1024.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.nado.executor&quot;: &quot;Run&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.j1024">
+    <configuration name="Ex4_17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex4_17" />
+      <module name="Java_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex4_18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex4_18" />
+      <module name="Java_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex4_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex4_19" />
+      <module name="Java_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyFirstClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyFirstClass" />
+      <module name="Java_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="j1024" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab.src.specialLecture.j1024" />
+      <module name="Java_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab.src.specialLecture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.j1024" />
+        <item itemvalue="Application.MyFirstClass" />
+        <item itemvalue="Application.Ex4_19" />
+        <item itemvalue="Application.Ex4_18" />
+        <item itemvalue="Application.Ex4_17" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="f965b616-7af2-48f5-8d85-6381f1dbdf53" name="변경" comment="" />
+      <created>1728644548955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728644548955</updated>
+      <workItem from="1728644549973" duration="1076000" />
+      <workItem from="1728881016798" duration="2544000" />
+      <workItem from="1728955189853" duration="12627000" />
+      <workItem from="1729040782535" duration="1677000" />
+      <workItem from="1729141230588" duration="9074000" />
+      <workItem from="1729246059971" duration="7899000" />
+      <workItem from="1729558828637" duration="13321000" />
+      <workItem from="1729645801983" duration="1279000" />
+      <workItem from="1729688050648" duration="476000" />
+      <workItem from="1729743190436" duration="7824000" />
+      <workItem from="1729752411530" duration="1699000" />
+      <workItem from="1729971047091" duration="1358000" />
+      <workItem from="1730016356699" duration="176000" />
+      <workItem from="1730017313561" duration="551000" />
+    </task>
+    <task id="LOCAL-00001" summary="1018">
+      <option name="closed" value="true" />
+      <created>1729263602483</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729263602483</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1018">
+      <option name="closed" value="true" />
+      <created>1729558934280</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729558934280</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1018">
+      <option name="closed" value="true" />
+      <created>1729687814236</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729687814236</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2241023">
+      <option name="closed" value="true" />
+      <created>1729687846746</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729687846746</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2241023">
+      <option name="closed" value="true" />
+      <created>1729688140749</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729688140749</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2241023">
+      <option name="closed" value="true" />
+      <created>1729971094002</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729971094002</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1018" />
+    <MESSAGE value="2241023" />
+    <option name="LAST_COMMIT_MESSAGE" value="2241023" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Lab/src/cobo/Chap3/Exercise3_1.java</url>
+          <line>3</line>
+          <properties class="Lab.src.cobo.Chap3.Exercise3_1" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Lab/src/cobo/Chap3/Exercise3_2.java</url>
+          <line>3</line>
+          <properties class="Lab.src.cobo.Chap3.Exercise3_2" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Lab/src/cobo/Chap3/Exercise3_6.java</url>
+          <line>3</line>
+          <properties class="Lab.src.cobo.Chap3.Exercise3_6" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Lab/src/cobo/Chap4/Ex4_3.java</url>
+          <line>5</line>
+          <properties class="Lab.src.cobo.Chap4.Ex4_3" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Lab/src/cobo/Chap4/Ex4_7.java</url>
+          <line>3</line>
+          <properties class="Lab.src.cobo.Chap4.Ex4_7" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Lab/src/cobo/Chap4/Ex4_19.java</url>
+          <line>1</line>
+          <properties class="Ex4_19" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
