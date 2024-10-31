@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ed2ab729-1579-4cef-8521-7f9eeb29bb33" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../src/etCetera/simu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/etCetera/switchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea_backup/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/specialLecture/j1024.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/specialLecture/j1024.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Lab/Lab1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Lab/Lab1~4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Lab/Lab2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Lab/Lab3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Lab/Lab4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Lab/OperatorLab.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Lab/OperatorLab1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Lab/OperatorLab2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Lab/flowcontrolLab1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Lab/flowcontrolLab2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Lab/flowcontrolLab3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap3/Exercise3_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap3/Exercise3_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap3/Exercise3_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap3/Exercise3_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap3/Exercise3_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap3/Exercise3_6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap3/Exercise3_7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap3/Exercise3_8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap3/Exercise3_9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap3/Exercise_3_10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap3/cha3plus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_14.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_15.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_16.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_17.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_19.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Exercise4_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Exercise4_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Exercise4_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Exercise4_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Exercise4_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Exercise4_6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/nado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/Arithmetic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/AssignmentOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/AssignmentOperator2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/BitOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/ComparisonOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/ComparisonOperator2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/IncrementOp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/LogicalOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/LogicalOperatorNot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/LogicalOperatorOr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/Losical_operatorAnd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/bitwiseOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/selection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/j1024.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/javacovo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/specialLecture/j_241013.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/specialLecture/j_241013.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/specialLecture/j_241024_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/specialLecture/j_241024_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/specialLecture/j_241028.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/specialLecture/j_241028.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/specialLecture/j_241028_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/specialLecture/j_241028_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/specialLecture/j_241028_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/specialLecture/j_241028_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/specialLecture/j_241030_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/specialLecture/j_241030_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/specialLecture/j_241030_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/specialLecture/j_241030_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/specialLecture/specialFirst.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Theunkillabledemonking"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Theunkillabledemonking/Java_project.git",
+    "accountId": "1f929294-4853-4846-8e67-009248727c46"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2oBxJL7JrfHTJYITswzG6R0FlUv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed2ab729-1579-4cef-8521-7f9eeb29bb33" name="Changes" comment="" />
+      <created>1730356698819</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730356698819</updated>
+      <workItem from="1730356699650" duration="644000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
