@@ -1,3 +1,5 @@
+package specialLecture;
+
 import java.util.*;
 public class j_241028_3 {
     public static void main(String[] args) {

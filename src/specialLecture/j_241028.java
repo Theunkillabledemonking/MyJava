@@ -1,4 +1,4 @@
-package Java_project.src.specialLecture;
+package specialLecture;
 import java.util.*;
 
 public class j_241028 {

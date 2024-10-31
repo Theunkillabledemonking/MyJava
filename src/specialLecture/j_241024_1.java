@@ -1,5 +1,5 @@
-<<<<<<< HEAD:src/specialLecture/j_241024_1.java
-package Lab.src.specialLecture;
+
+package specialLecture;
 
 public class j_241024_1 {
   public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class j_241024_1 {
 //    for (int i = 0, j = 10 ; i < bar.length ; i++, j += 10 ) {
 //        bar[i] = j;
 //      System.out.print(bar[i] + "\t");
-=======
+
 //package Lab.src.specialLecture;
 //
 //public class j1024 {
@@ -32,7 +32,7 @@ public class j_241024_1 {
 //
 //    for (int index = 0, value = 5; index < bar.length; index++, value--) {
 //      bar[index] = value;
->>>>>>> ccdb1ab3a389f16bbc76c3642fe5c1ad79bfe811:src/specialLecture/j1024.java
+
 //    }
 //
 //    for (int value : bar) {
@@ -42,4 +42,5 @@ public class j_241024_1 {
 //    // 두개는 결과는 같지만 배열이나 컬렉션을 한번에 순회하고 싶을 때에는 for-each문을 자주 사용
 //    // 값이 변경하는 것이 안된다. 단점
 //  }
-//  }
+  }
+}

@@ -5,8 +5,91 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c84a58fb-6044-4882-b27d-71b341f0cbd0" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/etCetera/simu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/etCetera/switchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea_backup/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/specialLecture/j1024.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/specialLecture/j1024.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Lab/Lab1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Lab/Lab1~4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Lab/Lab2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Lab/Lab3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Lab/Lab4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Lab/OperatorLab.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Lab/OperatorLab1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Lab/OperatorLab2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Lab/flowcontrolLab1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Lab/flowcontrolLab2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Lab/flowcontrolLab3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap3/Exercise3_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap3/Exercise3_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap3/Exercise3_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap3/Exercise3_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap3/Exercise3_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap3/Exercise3_6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap3/Exercise3_7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap3/Exercise3_8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap3/Exercise3_9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap3/Exercise_3_10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap3/cha3plus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_14.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_15.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_16.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_17.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_19.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Ex4_9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Exercise4_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Exercise4_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Exercise4_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Exercise4_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Exercise4_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/Chap4/Exercise4_6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/cobo/nado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/Arithmetic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/AssignmentOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/AssignmentOperator2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/BitOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/ComparisonOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/ComparisonOperator2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/IncrementOp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/LogicalOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/LogicalOperatorNot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/LogicalOperatorOr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/Losical_operatorAnd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/bitwiseOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/etCetera/selection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/j1024.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/javacovo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/specialLecture/j_241013.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/specialLecture/j_241013.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/specialLecture/j_241024_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/specialLecture/j_241024_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/specialLecture/j_241028.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/specialLecture/j_241028.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/specialLecture/j_241028_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/specialLecture/j_241028_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/specialLecture/j_241028_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/specialLecture/j_241028_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/specialLecture/j_241030_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/specialLecture/j_241030_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/specialLecture/j_241030_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/specialLecture/j_241030_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/src/specialLecture/specialFirst.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +112,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Theunkillabledemonking&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Theunkillabledemonking/Java_project.git&quot;,
+    &quot;accountId&quot;: &quot;1f929294-4853-4846-8e67-009248727c46&quot;
+  }
+}</component>
   <component name="KotlinCodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
@@ -40,25 +135,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/USER/Desktop/Java_project/Java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/USER/Desktop/Java_project/Java/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true",
-    "애플리케이션.Main.executor": "Run",
-    "애플리케이션.memory.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/Java_project/Java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/USER/Desktop/Java_project/Java/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.memory.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -121,6 +216,8 @@
       <workItem from="1728639410786" duration="4127000" />
       <workItem from="1728963184576" duration="7000" />
       <workItem from="1730164100960" duration="3000" />
+      <workItem from="1730356161364" duration="27000" />
+      <workItem from="1730356832047" duration="7000" />
     </task>
     <servers />
   </component>

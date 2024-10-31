@@ -1,4 +1,4 @@
-package Java_project.src.specialLecture;
+package specialLecture;
 import java.util.Scanner;
 public class j_241013 {
     // OOP -> Method (메서드)
@@ -52,8 +52,8 @@ public class j_241013 {
         // 대문자는 소문자로, 소문자는 대문자로 출력하는 프로그램 작성
         // 예시1 : 'a' -> 'A'
         // 예시2 : 'D' -> 'd'
-        char inputChar = scanner.nextLine();
-        char artChart ('A' >= inputChar && inputChar <= 'Z') ? (char + 32) : ch;
+        char inputChar = scanner.nextLine().charAt(0);
+        char artChart =  ('A' >= inputChar && inputChar <= 'Z') ? (char)(inputChar + 32) : inputChar;
         System.out.println(artChart);
 
     }
