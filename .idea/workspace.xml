@@ -5,94 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="920a7ee8-144a-48c7-93ab-e30fb1679012" name="Changes" comment="myjavaudpate">
-      <change afterPath="$PROJECT_DIR$/src/etCetera/simu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/etCetera/switchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/etCetera/switchTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea_backup/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/specialLecture/j1024.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/specialLecture/j1024.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Lab/Lab1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Lab/Lab1~4.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Lab/Lab2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Lab/Lab3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Lab/Lab4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Lab/OperatorLab.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Lab/OperatorLab1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Lab/OperatorLab2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Lab/flowcontrolLab1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Lab/flowcontrolLab2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Lab/flowcontrolLab3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap3/Exercise3_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap3/Exercise3_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap3/Exercise3_3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap3/Exercise3_4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap3/Exercise3_5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap3/Exercise3_6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap3/Exercise3_7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap3/Exercise3_8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap3/Exercise3_9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap3/Exercise_3_10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap3/cha3plus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Ex4_11.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Ex4_12.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Ex4_13.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Ex4_14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Ex4_15.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Ex4_16.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Ex4_17.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Ex4_18.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Ex4_19.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Ex4_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Ex4_20.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Ex4_3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Ex4_4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Ex4_5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Ex4_6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Ex4_7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Ex4_8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Ex4_9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Exercise4_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Exercise4_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Exercise4_3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Exercise4_4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Exercise4_5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/Chap4/Exercise4_6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/cobo/nado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/etCetera/Arithmetic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/etCetera/AssignmentOperator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/etCetera/AssignmentOperator2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/etCetera/BitOperator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/etCetera/ComparisonOperator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/etCetera/ComparisonOperator2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/etCetera/IncrementOp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/etCetera/LogicalOperator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/etCetera/LogicalOperatorNot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/etCetera/LogicalOperatorOr.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/etCetera/Losical_operatorAnd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/etCetera/bitwiseOperator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/etCetera/selection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/j1024.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/javacovo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/specialLecture/j_241013.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/specialLecture/j_241013.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/specialLecture/j_241024_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/specialLecture/j_241024_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/specialLecture/j_241028.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/specialLecture/j_241028.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/specialLecture/j_241028_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/specialLecture/j_241028_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/specialLecture/j_241028_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/specialLecture/j_241028_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/specialLecture/j_241030_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/specialLecture/j_241030_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/specialLecture/j_241030_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/specialLecture/j_241030_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/specialLecture/specialFirst.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cobo/Chap5/Ex5_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cobo/Chap5/Ex5_1_tmp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/specialLecture/j_241101_sensei.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/specialLecture/j_241101_sensei.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,9 +64,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Application.Ex5_1.executor": "Run",
+    "Application.Ex5_1_tmp.executor": "Run",
     "Application.flowcontrolLab1.executor": "Run",
     "Application.flowcontrolLab2.executor": "Run",
     "Application.flowcontrolLab3.executor": "Run",
+    "Application.j_241101_sensei.executor": "Run",
     "Application.simu.executor": "Run",
     "Application.src.simu.executor": "Run",
     "Application.switchTest.executor": "Run",
@@ -176,15 +95,36 @@
       <recent name="specialLecture" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.switchTest2">
-    <configuration name="flowcontrolLab3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab.flowcontrolLab3" />
+  <component name="RunManager" selected="Application.Ex5_1_tmp">
+    <configuration name="Ex5_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.cobo.Chap5.Ex5_1" />
+      <module name="Java_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab.*" />
+          <option name="PATTERN" value="src.cobo.Chap5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex5_1_tmp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.cobo.Chap5.Ex5_1_tmp" />
+      <module name="Java_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.cobo.Chap5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="j_241101_sensei" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="j_241101_sensei" />
+      <module name="Java_project" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -193,34 +133,6 @@
       <option name="ALTERNATIVE_JRE_PATH" value="22" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="etCetera.simu" />
-      <module name="Java_project" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="etCetera.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="src.simu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.simu" />
-      <module name="Java_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="switchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="22" />
-      <option name="MAIN_CLASS_NAME" value="etCetera.switchTest" />
       <module name="Java_project" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <extension name="coverage">
@@ -247,19 +159,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.src.simu" />
+      <item itemvalue="Application.Ex5_1" />
+      <item itemvalue="Application.Ex5_1_tmp" />
+      <item itemvalue="Application.j_241101_sensei" />
       <item itemvalue="Application.switchTest2" />
-      <item itemvalue="Application.flowcontrolLab3" />
       <item itemvalue="Application.simu" />
-      <item itemvalue="Application.switchTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex5_1_tmp" />
+        <item itemvalue="Application.Ex5_1" />
+        <item itemvalue="Application.j_241101_sensei" />
         <item itemvalue="Application.switchTest2" />
         <item itemvalue="Application.simu" />
-        <item itemvalue="Application.switchTest" />
-        <item itemvalue="Application.src.simu" />
-        <item itemvalue="Application.flowcontrolLab3" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +217,8 @@
       <workItem from="1730356125078" duration="301000" />
       <workItem from="1730357764284" duration="5000" />
       <workItem from="1730357775025" duration="2466000" />
-      <workItem from="1730360271964" duration="1505000" />
+      <workItem from="1730360271964" duration="2118000" />
+      <workItem from="1730461210827" duration="3816000" />
     </task>
     <task id="LOCAL-00002" summary="myjavaudpate">
       <option name="closed" value="true" />
@@ -315,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730200966969</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="myjavaudpate">
+      <option name="closed" value="true" />
+      <created>1730388355259</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730388355259</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

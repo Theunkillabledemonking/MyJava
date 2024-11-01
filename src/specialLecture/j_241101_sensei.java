@@ -1,4 +1,6 @@
+package src.specialLecture;
 import java.util.*;
+
 public class j_241101_sensei {
     public static void main(String[] args) {
         
