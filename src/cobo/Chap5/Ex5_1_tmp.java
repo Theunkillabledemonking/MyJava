@@ -20,9 +20,9 @@ public class Ex5_1_tmp {
       System.out.print(iArr1[i] + ",");
     }
 
-    System.out.println(Arrays.toString.(iArr1));
-    System.out.println(Arrays.toString.(iArr3));
-    System.out.println(Arrays.toString.(chArr));
+    System.out.println(Arrays.toString(iArr1));
+    System.out.println(Arrays.toString(iArr3));
+    System.out.println(Arrays.toString(chArr));
     System.out.println(iArr3);
     System.out.println(chArr);
 
