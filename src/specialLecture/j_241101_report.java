@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class j_241101_report {
   public static void main(String[] args){
+    // 변수의 생명주기 때문에 Scanner가 while문에 들어가면 없어지게 된다.
     Scanner sc = new Scanner(System.in);
-
     // 입력값 초기화
     int inputValue = 0;
     // 반복
@@ -34,7 +34,7 @@ public class j_241101_report {
       end = sc.nextInt();
       // 단, (end - start + 1) 값이 배열의 크기 N보다 작을 경우
       // 다시 입력을 요구한다.
-      if (!(end - (start + 1) >= inputValue)){
+      if ((end - (start + 1) >= inputValue)){
         break;
       }
       System.out.println("다시 입력해보세요");
