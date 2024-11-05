@@ -6,10 +6,10 @@ public class j_241104_2 {
   public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
 
-    // 가위바위보 배열 생성
+    // 가위바위보 배열, 기본 초기값 생성
     String[] sciRockPaper = {"SCISSORS", "ROCK", "PAPER"};
     String userInput = " ";
-    int userIndex = 0 ;
+    int userIndex = 0;
     int computerInput = 0;
 
     while(true){
@@ -27,16 +27,16 @@ public class j_241104_2 {
         }
       }
 
-      // 1. 잘못된 입력 -> 재입력 -> continue
-      if (userIndex == -1) {
-        System.out.println("잘못된 입력 값 입니다. Scissors, Rock, Paper 중 하나를 입력하세요 :");
-        continue;
-      }
-
-      // 2. quit 이면 -> 프로그램 종료 --> break
+      // 1. quit 이면 -> 프로그램 종료 --> break
       if (userInput.equals("QUIT")){
         System.out.println("프로그램을 종료합니다");
         break;
+      }
+
+      // 2. 잘못된 입력 -> 재입력 -> continue
+      if (userIndex == -1) {
+        System.out.println("잘못된 입력 값 입니다. Scissors, Rock, Paper 중 하나를 입력하세요 :");
+        continue;
       }
 
       // 컴퓨터 선택 : 가위, 바위 보 중 하나 선택
