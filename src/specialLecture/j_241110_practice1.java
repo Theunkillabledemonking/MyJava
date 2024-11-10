@@ -1,8 +1,7 @@
 package specialLecture;
-import java.sql.SQLOutput;
 import java.util.*;
 
-public class j_241109_practice {
+public class j_241110_practice1 {
     private static final String[] OPTIONS = {"가위", "바위", "보"};
     private static final int WINING_SCORE = 7;
     private static final int LOSING_SCORE = -7;
@@ -47,8 +46,9 @@ public class j_241109_practice {
 
             // 5. 승리 패배 구문
             score = calculateScore(rockResult, score, winStreak);
-            winStreak = rockResult.equals("승리") ? winStreak + 1 : 0;
-            //  승리 +1, 연속적으로 승리시 +3, 패배시 -1
+            winStreak = rockResult.equals("승리") ? 1 : 0;
+
+
             System.out.println("현재 점수: " + score);
 
             // 6. 7점 이상이면 승리, 7점이하면 패배 후 종료
@@ -85,6 +85,7 @@ public class j_241109_practice {
 
     public static int calculateScore(String rockResult, int score, int winStreak) {
         if (rockResult.equals("승리")) {
+            //  승리 +1, 연속적으로 승리시 +3, 패배시 -1
             return score += (winStreak >= 1) ? 3 : 1;
         } else if (rockResult.equals("패배")) {
             return score -1;
