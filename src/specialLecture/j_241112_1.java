@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class j_241112_1 {
 	public static void main(String[] args) {
@@ -63,5 +64,3 @@ public class j_241112_1 {
 	}
 }
 
-    }    
-}

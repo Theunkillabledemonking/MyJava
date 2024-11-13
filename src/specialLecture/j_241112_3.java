@@ -19,12 +19,21 @@ public class j_241112_3 {
 			System.out.println("홀수만 입력해주세요.");
 
 		}
-		
-		for (int i = 0; i <= m; i++) {
-			System.out.println('*' * i);
+
+		for (int i = 1; i < m+1; i++) {
+			for (int j = 0; j < i; j++) {
+				System.out.print('*');
+			}
+			System.out.println();
 		}
-		for (int j = m+2; j == 0; j-- ) {
-			System.out.println('*');
+
+		for (int i = m-1; i > 0; i--) {
+			for (int j = 0; j < i; j++) {
+				System.out.print('*');
+			}
+			System.out.println();
 		}
+
 	}
 }
+
