@@ -1,46 +1,44 @@
 import java.util.Scanner;
 
-import javax.print.DocFlavor.STRING;
-    
 public class j_241115 {
 
-    public static void printGameResult(int gmaeCount, int gameScore, char rrEsult) {
-        // if (gmaeCount == 1) {
-        //     switch (rrEsult) {
-        //         case '+':
-        //             gameScore += 1;
-        //             System.out.println("+ 2 Combo : 보너스 점수 1점  증가");
-        //             break;
-        //         case '-':
-        //             gameScore -= 1;
-        //             System.out.println("- 2 Conbo : 보너스 점수 2점 감점");
-        //             break;
-        //         case '*':
-        //             gameScore += 3;
-        //             System.out.println("* 2 Combo : 보너스 점수 3점 증가");
-        //             break;
-        //         default:
-        //             break;
-        //     }
-        // } else if (gmaeCount == 2) {
-        //     switch (rrEsult) {
-        //         case '+':
-        //             gameScore += 3;
-        //             System.out.println("+ 3 Combo : 보너스 점수 3점 증가");
-        //             break;
-        //         case '-':
-        //             gameScore -= 3;
-        //             System.out.println("- 3 Conbo : 보너스 점수 3점 감점");
-        //             break;
-        //         case '*':
-        //             gameScore += 5;
-        //             System.out.println("* 3 Combo : 보너스 점수 5점 증가");
-        //             break;
-        //         default:
-        //             break;
-        //     }
-            
-    
+    public static int printGameResult(int gmaeCount, int gameScore, char rrEsult) {
+         if (gmaeCount == 1) {
+             switch (rrEsult) {
+                 case '+':
+                     gameScore += 1;
+                     System.out.println("+ 2 Combo : 보너스 점수 1점 증가");
+                     break;
+                 case '-':
+                     gameScore -= 1;
+                     System.out.println("- 2 Conbo : 보너스 점수 1점 감점");
+                     break;
+                 case '*':
+                     gameScore += 3;
+                     System.out.println("* 2 Combo : 보너스 점수 3점 증가");
+                     break;
+                 default:
+                     break;
+             }
+         } else if (gmaeCount == 2) {
+             switch (rrEsult) {
+                 case '+':
+                     gameScore += 3;
+                     System.out.println("+ 3 Combo : 보너스 점수 3점 증가");
+                     break;
+                 case '-':
+                     gameScore -= 3;
+                     System.out.println("- 3 Conbo : 보너스 점수 3점 감점");
+                     break;
+                 case '*':
+                     gameScore += 5;
+                     System.out.println("* 3 Combo : 보너스 점수 5점 증가");
+                     break;
+                 default:
+                     break;
+             }
+         }
+        return  gameScore;
 }
     public static void main(String[] args) {
 
@@ -86,43 +84,7 @@ public class j_241115 {
 
             // 연속된 문자 2개  
             // 연속된 문자 3개
-
-            if (gmaeCount == 1) {
-                switch (rrEsult) {
-                    case '+':
-                        gameScore += 1;
-                        System.out.println("+ 2 Combo : 보너스 점수 1점  증가");
-                        break;
-                    case '-':
-                        gameScore -= 1;
-                        System.out.println("- 2 Conbo : 보너스 점수 2점 감점");
-                        break;
-                    case '*':
-                        gameScore += 3;
-                        System.out.println("* 2 Combo : 보너스 점수 3점 증가");
-                        break;
-                    default:
-                        break;
-                }
-            } else if (gmaeCount == 2) {
-                switch (rrEsult) {
-                    case '+':
-                        gameScore += 3;
-                        System.out.println("+ 3 Combo : 보너스 점수 3점 증가");
-                        break;
-                    case '-':
-                        gameScore -= 3;
-                        System.out.println("- 3 Conbo : 보너스 점수 3점 감점");
-                        break;
-                    case '*':
-                        gameScore += 5;
-                        System.out.println("* 3 Combo : 보너스 점수 5점 증가");
-                        break;
-                    default:
-                        break;
-                }
-            }
-            // printGameResult(gmaeCount, gameScore, rrEsult);
+            gameScore = printGameResult(gmaeCount, gameScore, rrEsult);
             
             // 게임종료 5 or -5
             if (gameScore >= 5) {
@@ -135,6 +97,7 @@ public class j_241115 {
 
                //게임 카운트 증가
             count++;
+            System.out.println(gameScore + "점수");
         
         }
     }    
