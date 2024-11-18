@@ -60,6 +60,7 @@ public class j_241117 {
     // 메뉴를 입력 받아 해당 프로그램 실행 후 다시 메뉴 출력
     while (true){
       menu = sc.nextInt();
+      // 예외처리
       if (1 <= menu && menu <= 3) {
         break;
       } else if (menu == 4) {

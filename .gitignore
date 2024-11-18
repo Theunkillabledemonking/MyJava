@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
@@ -38,4 +39,47 @@ production/
 
 # 운영체제 숨김 파일
 .DS_Store
+=======
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# 빌드 파일
+*.class
+*.jar
+
+# IDE 설정 파일
+*.iml
+.idea/
+.vscode/
+
+# OS 캐시
+.DS_Store
+>>>>>>> 89c5f186ddedc9a8716877c175566d669c1ceada
 Thumbs.db

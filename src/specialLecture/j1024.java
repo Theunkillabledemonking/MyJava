@@ -1,4 +1,4 @@
-package specialLecture;
+package Lab.src.specialLecture;
 
 public class j1024 {
   public static void main(String[] args) {
