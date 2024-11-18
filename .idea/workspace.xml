@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="920a7ee8-144a-48c7-93ab-e30fb1679012" name="Changes" comment="myjavaudpate">
-      <change afterPath="$PROJECT_DIR$/src/cobo/Chap5/Ex5_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cobo/Chap5/Ex5_1_tmp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/specialLecture/j_241101_sensei.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/specialLecture/j_241101_sensei.java" afterDir="false" />
-    </list>
+    <list default="true" id="920a7ee8-144a-48c7-93ab-e30fb1679012" name="Changes" comment="commit pull" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Merge.Settings">
     <option name="BRANCH" value="origin/main" />
@@ -61,119 +49,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "Application.Ex5_1.executor": "Run",
-    "Application.Ex5_1_tmp.executor": "Run",
-    "Application.flowcontrolLab1.executor": "Run",
-    "Application.flowcontrolLab2.executor": "Run",
-    "Application.flowcontrolLab3.executor": "Run",
-    "Application.j_241101_sensei.executor": "Run",
-    "Application.simu.executor": "Run",
-    "Application.src.simu.executor": "Run",
-    "Application.switchTest.executor": "Run",
-    "Application.switchTest2.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/USER/Desktop/Java_project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/USER/Desktop/Java_project/src/untitled/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="specialLecture" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.Ex5_1_tmp">
-    <configuration name="Ex5_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.cobo.Chap5.Ex5_1" />
-      <module name="Java_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.cobo.Chap5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex5_1_tmp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.cobo.Chap5.Ex5_1_tmp" />
-      <module name="Java_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.cobo.Chap5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="j_241101_sensei" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="j_241101_sensei" />
-      <module name="Java_project" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="simu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="22" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="etCetera.simu" />
-      <module name="Java_project" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="etCetera.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="switchTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="etCetera.switchTest2" />
-      <module name="Java_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="etCetera.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Ex5_1" />
-      <item itemvalue="Application.Ex5_1_tmp" />
-      <item itemvalue="Application.j_241101_sensei" />
-      <item itemvalue="Application.switchTest2" />
-      <item itemvalue="Application.simu" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Ex5_1_tmp" />
-        <item itemvalue="Application.Ex5_1" />
-        <item itemvalue="Application.j_241101_sensei" />
-        <item itemvalue="Application.switchTest2" />
-        <item itemvalue="Application.simu" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -204,39 +103,9 @@
       <workItem from="1730164077104" duration="133000" />
       <workItem from="1730164216352" duration="2161000" />
       <workItem from="1730166405498" duration="461000" />
-      <workItem from="1730166911925" duration="1343000" />
-      <workItem from="1730168276063" duration="7502000" />
-      <workItem from="1730176818659" duration="3275000" />
-      <workItem from="1730198265129" duration="1957000" />
-      <workItem from="1730305940897" duration="147000" />
-      <workItem from="1730349828036" duration="5189000" />
-      <workItem from="1730355375722" duration="43000" />
-      <workItem from="1730355423246" duration="28000" />
-      <workItem from="1730355477933" duration="145000" />
-      <workItem from="1730355668105" duration="447000" />
-      <workItem from="1730356125078" duration="301000" />
-      <workItem from="1730357764284" duration="5000" />
-      <workItem from="1730357775025" duration="2466000" />
-      <workItem from="1730360271964" duration="2118000" />
-      <workItem from="1730461210827" duration="3816000" />
+      <workItem from="1730166911925" duration="973000" />
     </task>
-    <task id="LOCAL-00002" summary="myjavaudpate">
-      <option name="closed" value="true" />
-      <created>1730200966969</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1730200966969</updated>
-    </task>
-    <task id="LOCAL-00003" summary="myjavaudpate">
-      <option name="closed" value="true" />
-      <created>1730388355259</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1730388355259</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,18 +140,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2241023" />
     <MESSAGE value="commit pull" />
-    <MESSAGE value="myjavaudpate" />
-    <option name="LAST_COMMIT_MESSAGE" value="myjavaudpate" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/untitled/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="LAST_COMMIT_MESSAGE" value="commit pull" />
   </component>
 </project>
