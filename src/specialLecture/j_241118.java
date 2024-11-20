@@ -36,99 +36,118 @@ public class j_241118 {
         randOper[i] = operator[randValue];
       }
 
-      System.out.print("Result:");
+      System.out.print("Result: ");
       // 배열 출력
       for (char value : randOper) {
         System.out.print(value + "\t");
       }
+      System.out.println();
 
       // 0으로 초기화
       char overlapping = 0;
-      int count = 0;
-      int reverseCount = 0;
       char reverseLapping = 0;
+      int count = 1;
+      int reverseCount = 1;
+      boolean forwardFount = false;
+      boolean reverseFount = false;
+      int maxForwardCount = 1;
+      int maxReverseCount = 1;
 
-      int start = 0;
-      int end = userInput - 1;
+         // 같은 배열에 같은 문자가 있을시에 카운트 증가
+         for (int i = 1; i < randOper.length - 1; i++) {
+            if (randOper[i] == randOper[i - 1]) {
+               count++;
+               if (count > maxForwardCount) {
+                 maxForwardCount = count;
+                 overlapping = randOper[i];
+                 forwardFount = true;
+               }
+            } else {
+              count = 1;
+            }
+         }
 
-      while (start <= end) {
-        if (randOper[start] == randOper[start + 1]) {
-          overlapping = randOper[start];
-          count++;
-
-          if (count == 2) {
-            break;
-          }
-        }start++;
-      }
-      System.out.println(count);
-
-      start = 0;
-      end = userInput - 1;
-      while (end >= start) {
-        if (randOper[end] == randOper[end - 1]) {
-          reverseLapping = randOper[end];
-          reverseCount++;
-
-          if (reverseCount == 2) {
-            break;
-          }
-        }end--;
-      }
+       // 배열을 역순을 돌면서 확인
+         for (int j = randOper.length - 2; j >= 0; j--) {
+            if (randOper[j] == randOper[j + 1]) {
+               reverseCount++;
+               if (reverseCount > maxReverseCount) {
+                 maxReverseCount = reverseCount;
+                 reverseLapping = randOper[j];
+                 reverseFount = true;
+               }
+            } else {
+              reverseCount = 1;
+            }
+         }
 
 
-//      }
-      // 배열을 역순을 돌면서 확인
-//         for (int j = end; j < randOper.length; j--) {
-//            if (randOper[j] == randOper[j - 1]) {
-//               reverseCount++;
-//               reverseLapping = randOper[j];
-//            }
-//         }
-////
-//         // 같은 배열에 같은 문자가 있을시에 카운트 증가
-//         for (int i = 1; i < randOper.length; i++) {
-//            if (randOper[i] == randOper[i - 1]) {
-//               count++;
-//               overlapping = randOper[i];
-//            }
-//         }
-
+         int roundScore = 0;
       // 랜덤 슬롯 결과 생성
-      // 2개가 겹침
-//         if (count == 1) {
-//            switch (overlapping) {
-//            case '+':
-//               System.out.println("+ 2 Combo - 보너스 점수 1점 증가");
-//               score += 1;
-//               break;
-//            case '-':
-//               System.out.println("- 2 Combo - 보너스 점수 2점 감소");
-//               score -= 1;
-//               break;
-//            case '*':
-//               System.out.println("* 2 Combo - 보너스 점수 3점 증가");
-//               score += 3;
-//               break;
-//
-//            }
-//         } else if (count == 2) { // 3개가 겹침
-//            switch (overlapping) {
-//            case '+':
-//               System.out.println("+ 3 Combo - 보너스 점수 3점 증가");
-//               score += 3;
-//               break;
-//            case '-':
-//               System.out.println("- 3 Combo - 보너스 점수 3점 감소");
-//               score -= 3;
-//               break;
-//            case '*':
-//               System.out.println("* 3 Combo - 보너스 점수 5점 증가");
-//               score += 5;
-//               break;
-//            }
-//         }
+        if (forwardFount) {
+            switch (overlapping) {
+              case '+':
+                if (maxForwardCount == 2) {
+                  System.out.println("+ 2 Combo - 보너스 점수 1점 증가");
+                  roundScore += 1;
+                } else if (maxForwardCount >= 3) {
+                  System.out.println("+ 3 Combo - 보너스 점수 3점 증가");
+                  roundScore += 3;
+                }
+                break;
+              case '-':
+                if (maxForwardCount == 2) {
+                  System.out.println("- 2 Combo - 보너스 점수 1점 감소");
+                  roundScore -= 1;
+                } else if (maxForwardCount >= 3) {
+                  System.out.println("- 3 Combo - 보너스 점수 3점 감소");
+                  roundScore -= 3;
+                }
+                break;
+              case '*':
+                if (maxForwardCount == 2) {
+                  System.out.println("* 2 Combo - 보너스 점수 3점 증가");
+                  roundScore += 3;
+                } else if (maxForwardCount >= 3) {
+                  System.out.println("* 3 Combo - 보너스 점수 5점 증가");
+                  roundScore += 5;
+                }
+                break;
+            }
+        }
 
+      if (reverseFount && (!forwardFount || overlapping != reverseLapping)) {
+        switch (reverseLapping) {
+          case '+':
+            if (maxReverseCount == 2) {
+              System.out.println("+ 2 Combo - 보너스 점수 1점 증가");
+              roundScore += 1;
+            } else if (maxReverseCount >= 3) {
+              System.out.println("+ 3 Combo - 보너스 점수 3점 증가");
+              roundScore += 3;
+            }
+            break;
+          case '-':
+            if (maxReverseCount == 2) {
+              System.out.println("- 2 Combo - 보너스 점수 1점 감소");
+              roundScore -= 1;
+            } else if (maxReverseCount >= 3) {
+              System.out.println("- 3 Combo - 보너스 점수 3점 감소");
+              roundScore -= 3;
+            }
+            break;
+          case '*':
+            if (maxReverseCount == 2) {
+              System.out.println("* 2 Combo - 보너스 점수 3점 증가");
+              roundScore += 3;
+            } else if (maxReverseCount >= 3) {
+              System.out.println("* 3 Combo - 보너스 점수 5점 증가");
+              roundScore += 5;
+            }
+            break;
+        }
+      }
+      score += roundScore;
       System.out.println("현재 점수 :" + score);
       gameCount++;
 
