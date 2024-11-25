@@ -41,6 +41,6 @@ public class j_241122 {
         foo[0] = new short[3][];
         foo[1] = new short[1][];
 
-        bar[0][0] = new short[5];
+//        bar[0][0] = new short[5];
     }
 }
