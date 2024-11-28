@@ -26,7 +26,7 @@ public class j_241125 {
     float mathNum = 0;
     float sum = 0;
     int student = 0;
-    int deleteStudent = 0;
+    float deleteStudent = 0;
 
     float[][] array = new float[ROW][COL];
     // 3X6 2차원 배열 생성
@@ -61,7 +61,6 @@ public class j_241125 {
           engNum = sc.nextFloat();
           System.out.print("\n수학 성적: ");
           mathNum = sc.nextFloat();
-          System.out.println("입력이 완료되었습니다!");
           array[student][0] = gradeNum;
           array[student][1] = krNum;
           array[student][2] = engNum;
@@ -97,18 +96,20 @@ public class j_241125 {
           printArray(array, student);
 
           System.out.println("삭제할 학생의 학번을 입력하세요 (-1: 이전 메뉴로)");
-          deleteStudent = sc.nextInt();
+          deleteStudent = sc.nextFloat();
           if (deleteStudent == -1) {
             break;
           }
           boolean found = false;
           // 삭제할 입력값 같을 때 삭제
-          for (int i = 0; i < array.length - 1; i++) {
+          for (int i = 0; i < student; i++) {
             if (array[i][0] == deleteStudent) {
               found = true;
-              for (int j = i; j < student; j++) {
+              for (int j = i; j < student - 1; j++) {
                 array[j] = array[j + 1];
               }
+              //마지막 학생 데이터 초기화
+              array[student - 1] = new float[COL];
               student --;
               System.out.println("학생이 삭제되었습니다.");
               break;
