@@ -30,7 +30,7 @@ public class newOperatorA {
     System.out.println("names[1] 설정 후 값: " + names[0]); //출력 alice
 
     // 7. 배열 크기 출력
-    // 배열의 길이는 .length를 사용해 확인할 수 ㅇ있다
+    // 배열의 길이는 .length를 사용해 확인할 수 있다
     System.out.println("numbers 배열의 길이: " + numbers.length); //출력 : 5
     System.out.println("names 배열의 길이: " + numbers.length); // 출력 : 3
 
