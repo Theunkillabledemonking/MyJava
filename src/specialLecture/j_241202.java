@@ -85,6 +85,29 @@ static boolean handleOverwrite(Scanner sc, int index, String[] argSubject, float
     return false;
 }
 
+static int deleteStudent(float[][] argMatrix, int argStudent, float argFind) {
+    int findIndex = -1;
+
+    for (int i = 0; i < argStudent ; i++) {
+      if (argMatrix[i][0] == argFind) {
+        findIndex = i;
+      }
+    }
+    if (findIndex == -1) {
+      System.out.println("dk");
+      return -1;
+    }
+
+    for (int j = findIndex; j < argMatrix.length - 1; j++) {
+      argMatrix[j] = argMatrix[j + 1];
+    }
+
+    for (int i = 0 ; i < 1 ; i++) {
+      argMatrix[argStudent-1] = new float[6];
+    }
+    return --argStudent;
+}
+
 static void inputGrades(float[][] argMatrix, int studentIndex, String[] argSubject, Scanner sc) {
     for (int i = 1; i < argMatrix[studentIndex].length - 2; i++) {
       System.out.print(argSubject[i] + "입력하세요: ");
@@ -147,7 +170,12 @@ static void inputGrades(float[][] argMatrix, int studentIndex, String[] argSubje
             System.out.println("삭제할 학생 정보가 없습니다");
           } else {
             prtStudentList(stdCount, stdSubject, stdMatrix);
+            System.out.println("삭제할 학생의 학번을 입력해주세요");
+            while (true){
+              float findStudent = sc.nextFloat();
+              deleteStudent(stdMatrix, stdCount, findStudent);
           }
+            }
           break;
 
         // 4. 종료
