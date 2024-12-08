@@ -1,0 +1,166 @@
+
+import java.util.*;
+
+public class binggoMatrix1 {
+    static void prinfMenu() {
+        System.out.println("==== 빙고 게임 메뉴 ====");
+        System.out.println("1. 빙고판 생성");
+        System.out.println("2. 숫자별 발생 빈도 분석");
+        System.out.println("3. 빙고판 출력");
+        System.out.println("4. 종료");
+    }
+
+    // 중복되지 않은 값 풀 생성
+    static int[] generateValuePool(int startNumber, int endNumber) {
+        int size = endNumber - startNumber + 1;
+        int[] valuePool = new int[size];
+        for (int i = 0; i < size; i++) {
+            valuePool[i] = startNumber + i;
+        }
+        return valuePool;
+    }
+
+    // 값을 섞어서 빙고판에 배치
+    static void shuffleAndAssign(int[][][] bingoMatrix, int[] valuePool, int matrixSize, int matrixSizeM) {
+        for (int t = 0; t < matrixSizeM; t++) {
+            // valuePool 복사
+            int[] poolCopy = new int[valuePool.length];
+            for (int j = 0; j < valuePool.length; j++) {
+                poolCopy[j] = valuePool[j];
+            }
+
+            // Fisher 알고리즘
+            for (int j = poolCopy.length - 1; j > 0; j--) {
+                int randomIndex = (int) (Math.random() * (j + 1));
+                // swap
+                int temp = poolCopy[j];
+                poolCopy[j] = poolCopy[randomIndex];
+                poolCopy[randomIndex] = temp;
+            }
+
+            // 섞인 poolCopy에서 값을 할당
+            int index = 0;
+            for (int i = 0; i < matrixSize; i++) {
+                for (int j = 0; j < matrixSize; j++) {
+                    bingoMatrix[t][i][j] = poolCopy[index++];
+                }
+            }
+        }
+
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int matrixSize = 0;
+        int startNumber = 0;
+        int endNumber = 0;
+        int matrixSizeM = 0;
+        int bingoMatrix[][][] = null;
+        int selectMenu = 0;
+        while (true) {
+            // 메뉴 출력
+            prinfMenu();
+            System.out.print("메뉴 선택: ");
+            selectMenu = sc.nextInt();
+
+            if (selectMenu == 1) {
+                System.out.print("빙고 매트릭스의 N값을 입력하세요 (3 이상 9이하 홀수): ");
+                while (true) {
+                    matrixSize = sc.nextInt();
+                    if (3 <= matrixSize && matrixSize <= 9 && matrixSize % 2 != 0) {
+                        System.out.println("입력완료");
+                        break;
+                    }
+                    System.out.println("N 값은 3이상 9이하 정수 중 홀수 값만 입력 가능합니다");
+                }
+
+                while (true) {
+                    System.out.print("난수 범위 시작값을 입력하세요: ");
+                    startNumber = sc.nextInt();
+                    System.out.print("난수 범위 종료값을 입력하세요: ");
+                    endNumber = sc.nextInt();
+                    if ((endNumber - startNumber + 1) >= matrixSizeM * matrixSize * matrixSize) {
+                        break;
+                    }
+                    System.out.println("종료 값 - 시작 값이 N X N 보다 크거나 같아야 합니다");
+                }
+
+                while (true) {
+                    System.out.print("배열의 사이즈를 선택해주세요 (1 이상 7 이하): ");
+                    matrixSizeM = sc.nextInt();
+                    if (1 <= matrixSizeM && matrixSizeM <= 7) {
+                        break;
+                    }
+                    System.out.println("M 값은 1이상 7이하 양수만 입력 가능합니다.");
+                }
+
+                bingoMatrix = new int[matrixSizeM][matrixSize][matrixSize];
+                int[] valuePool = generateValuePool(startNumber, endNumber);
+                shuffleAndAssign(bingoMatrix, valuePool, matrixSize, matrixSizeM);
+            }
+
+            else if (selectMenu == 2) {
+                if (bingoMatrix != null) {
+                    // 빈도 배열 생성
+                    int frequencySize = endNumber - startNumber + 1;
+                    int[] frequency = new int[frequencySize];
+
+                    // 빙고 매트릭스 순회하여 발생 빈도 계산
+                    for (int t = 0; t < matrixSizeM; t++) {
+                        for (int i = 0; i < matrixSize; i++) {
+                            for (int j = 0; j < matrixSize; j++) {
+                                int nowNumber = bingoMatrix[t][i][j];
+                                if (nowNumber >= startNumber && nowNumber <= endNumber) {
+                                    frequency[nowNumber - startNumber]++;
+                                };
+                            }
+                        }
+                    }
+                    int totalNumbers = matrixSizeM * matrixSize * matrixSize;
+                    System.out.println("=== 숫자별 발생 빈도 ===");
+                    for (int i = 0; i < frequency.length; i++) {
+                        int number = startNumber + i; // 실제 숫자
+                        int count = frequency[i]; // 발생 빈도
+                        double percentage = (count/ (double) totalNumbers) * 100;
+
+                        // 별출력
+                        StringBuilder star = new StringBuilder();
+                        for (int j = 0; j < count; j++) {
+                            star.append("*");
+                        }
+
+                        System.out.printf("%2d: %2회 (%.2f%%) %s\n", number, count, percentage, star.toString());
+
+                    }
+                }
+            }
+
+            else if (selectMenu == 3) {
+                if (bingoMatrix != null) {
+                    for (int i = 0; i < matrixSizeM; i++) {
+                        System.out.println("빙고 매트릭스 #" + (i + 1));
+                        for (int j = 0; j < matrixSize; j++) {
+                            for (int k = 0; k < matrixSize; k++) {
+                                System.out.print(bingoMatrix[i][j][k] + " ");
+                            }
+                            System.out.println();
+                        }
+                        System.out.println();
+                    }
+                } else {
+                    System.out.println("생성된 빙고판이 없습니다. 먼저 빙고판을 생성해주세요.");
+                }
+            }
+
+            else if (selectMenu == 4) {
+                System.out.println("종료합니다.");
+                break;
+            }
+
+            else {
+                System.out.println("유효하지 않은 메뉴입니다. 다시 선택해주세요.");
+            }
+        }
+        sc.close();
+    }
+}
