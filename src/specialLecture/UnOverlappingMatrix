@@ -1,0 +1,201 @@
+import java.util.Scanner;
+
+public class UnOverlappingMatrix {
+    static void printMenu() {
+        System.out.println("=== 빙고 게임 메뉴 ===");
+        System.out.println("1. 빙고판 생성");
+        System.out.println("2. 슷자별 발생 빈도 생성");
+        System.out.println("3. 빙고판 출력");
+        System.out.println("4. 종료");
+        System.out.println("선택");
+    }
+
+    static int matrixSize(Scanner sc, int argSize) {
+        while (true) {
+            System.out.println("N 사이즈를 입력해주세요 (3~9 범위의 홀수) ");
+            argSize = sc.nextInt();
+            if (3 <= argSize && argSize <= 9 && argSize % 2 != 0) {
+                return argSize;
+            }
+            System.out.println("3이상 9이하의 홀수 값을 입력해주세요.");
+        }
+    }
+    
+    static int matrixM(Scanner sc, int argSize) {
+        while (true) {
+            System.out.println("작성할 매트릭스 수 M을 입력하세요 (1 이상 7 이하");
+            argSize = sc.nextInt();
+            if (1 <= argSize && argSize <= 7) {
+                return argSize;
+            }
+            System.out.println("1이상 7이하의 정수를 입력해주세요.");
+        }
+    }
+
+    static int[] numberDefault(Scanner sc, int argSize, int argStart, int argEnd) {
+        while (true) {
+            int[] numberValue = new int[2];
+            System.out.println("난수 범위의 시작값을 입력하세요: ");
+            argStart = sc.nextInt();
+            System.out.println("난수 범위의 끝값을 입력하세요: ");
+            argEnd = sc.nextInt();
+
+            if ((argEnd - argStart + 1) >= argSize * argSize) {
+
+                for (int i = 0; i < numberValue.length; i++) {
+                    numberValue[0] = argStart;
+                    numberValue[1] = argEnd;
+                }
+                return numberValue;
+            }
+            System.out.println("종료 값 - 시작값이 N X N보다 크거가 같아야 합니다");
+        }
+    }
+    
+    // 배열 출력
+    static void printMatrix (int[][][] argMatrix) {
+        int count = 1;
+        for(int[][] tensor : argMatrix) {
+            System.out.println("===" + count +  "배열 ===");
+            for (int[] table : tensor) {
+                for (int result : table) {
+                    System.out.print(result + " ");
+                }
+                System.out.println();
+            }
+            System.out.println();
+            count ++;
+        }
+    }
+
+    static int[] insertMatrix(int[] argValue, int[] argNumStrEnd) {
+        int value = argNumStrEnd[1] - argNumStrEnd[0] + 1;
+        argValue = new int[value];
+        for (int i = 0; i < value; i++) {
+            argValue[i] = argNumStrEnd[0] + i;
+        }
+        return argValue;
+    }
+
+    static void tupleMatrix(int[][][] argMatrix, int[] argList, int argM, int argN) {
+        for (int t = 0; t < argM; t++) {
+            int[] pooCopy = new int[argList.length];
+            for (int i = 0; i < argList.length; i++) {
+                pooCopy[i] = argList[i];
+            }
+
+            for (int i = pooCopy.length - 1; i > 0; i--) {
+                int randomValue = (int) (Math.random() * (i + 1));
+                int temp = argList[i];
+                argList[i] = argList[randomValue];
+                argList[randomValue] = temp;
+            }
+
+
+            int index = 0;
+            for (int i = 0; i < argN; i++) {
+                for (int j = 0; j < argN; j++) {
+                    argMatrix[t][i][j] = argList[index++];
+                }
+            }
+        }
+    }
+    
+    static int[] calculateFrequency(int[][][] argMatrix, int argStart, int endNumber) {
+        int frequencySize = endNumber - argStart;
+        int[] frequency = new int[frequencySize];
+        
+        // 빙고 매트릭스 순회하여 빈도 계산
+        for (int t = 0; t < argMatrix.length; t++) {
+            for (int row = 0; row < argMatrix[t].length; row++) {
+                for (int col = 0; col < argMatrix[t][row].length; col++){
+                    int nowNumber = argMatrix[t][row][col];
+                    frequency[nowNumber - argStart]++;
+                }
+            }
+        }
+        return frequency;
+    }
+    
+    static void printFrequency(int [] frequency, int argStart, int argTotalNum) {
+        System.out.println("숫자 발생 빈도");
+        for (int i = 0; i < frequency.length; i++) {
+            int number = argStart + 1; // 실제 숫자
+            int count = frequency[i]; // 발생 빈도
+            double percentage = (count / (double) argTotalNum) * 100; //확률 계산
+        
+            // 10 단위로 별  출력
+            System.out.printf("%2d: %2회 (%.2f%%", number, count, percentage);
+            for (int j = 0; j < (int) (percentage / 10); j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int selectUsInput = 0;
+        int bingoMatrix[][][] = null;
+        int matrixValue[] = new int[0];
+        int matrixNSzie = 0;
+        int matrixMsize = 0;
+        int valueStart = 0;
+        int valueEnd = 0;
+        int[] numberStEnd = null;
+
+        while (true) {
+            printMenu();
+            selectUsInput = sc.nextInt();
+
+            if (selectUsInput == 1) {
+                // 1번
+                // 빙고판 크기 3이상 9이하 (홀수)
+                matrixNSzie = matrixSize(sc, matrixNSzie);
+
+                // 시작값, 종료값 -> (종료값 - 시작값 + 1) <=  n * n
+                numberStEnd = numberDefault(sc, matrixNSzie, valueStart, valueEnd);
+
+                // 빙고 매트릭스 수 M 1~7
+                matrixMsize = matrixM(sc, matrixMsize);
+                
+                // 3차원 배열 생성
+                bingoMatrix = new int[matrixMsize][matrixNSzie][matrixNSzie];
+
+                matrixValue = insertMatrix(matrixValue, numberStEnd);
+
+                tupleMatrix(bingoMatrix, matrixValue, matrixMsize, matrixNSzie);
+
+
+                // 중복되지 않는 숫자 생성
+            } else if(selectUsInput == 2){
+                if (bingoMatrix != null) {
+                    // 빈도 계산
+                    int[] frequency = calculateFrequency(bingoMatrix, valueStart, valueEnd);
+                    
+                    // 빈도 출력
+                    int totalNumbers = matrixMsize * matrixNSzie * matrixNSzie; // w전체 숫자 개수
+                    printFrequency(frequency, valueStart, totalNumbers);
+                } else {
+                    System.out.println("출력할 수 있는 배열이 없습니다.");
+                }
+            } else if(selectUsInput == 3) {
+                printMatrix(bingoMatrix);
+
+            } else if(selectUsInput == 4) {
+                System.out.println("종료");
+                break;
+            }
+            
+
+            // 3번
+            
+            // 생성된 matrix 출력
+
+            // 4번
+            // 종료
+
+        }
+    }
+}
