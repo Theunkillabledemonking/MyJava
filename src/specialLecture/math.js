@@ -1,4 +1,4 @@
-funtion sum(a, b) {
+export funtion sum(a, b) {
     return a + b;
 }
-moduel.exports = sum;
+//moduel.exports = sum;
