@@ -151,6 +151,7 @@ public class StudentSystem {
                 case 3:
                     System.out.println("출력하실 학번을 입력하세요");
                     int id = sc.nextInt();
+                    stdMng.ChoiceStdPrint(id);
                     break;
                 case 4:
                     System.out.println("시스템 종료.");
