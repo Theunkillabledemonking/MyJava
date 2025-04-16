@@ -17,8 +17,6 @@ class Bar1 {
     }
 }
 
-
-
 public class prt240414 {
     public static void main(String[] args) {
         Bar1 b = new Bar1();
