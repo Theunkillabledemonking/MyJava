@@ -12,7 +12,7 @@ public class userInfo {
     public static void main(String[] args) {
         //src.OOP.gsc.MainTest t = new src.OOP.gsc.MainTest();
 
-        GscStudent mainTest = new GscStudent(); // protected로 선언이 안되어있기 떄문에 사용 불가
+        //GscStudent mainTest = new GscStudent(); // protected로 선언이 안되어있기 떄문에 사용 불가
         YjuStudent yju = new YjuStudent(); //  GscStudent에서 상속받은 클래스라서 사용 가능
 
     }
