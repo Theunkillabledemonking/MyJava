@@ -30,7 +30,6 @@ public class ExamUserInfoMain1_1 {
         user1.printUserInfo();
 
         System.out.println("--------------------------------");
-
         // 5. 파라미터 생성자로 객체 생성
         Users user2 = new Users("kim", "seng@gmail.com");
         user2.printUserInfo();
