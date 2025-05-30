@@ -16,7 +16,6 @@ class Bar2 implements AutoCloseable {
 
 public class tryWithResources {
     public static void main(String[] args) {
-
         // try-with-resources 구문: Bar 객체는 try 블록이 끝나는 즉시 자동으로 close() 호출됨
         try (Bar2 bar = new Bar2()) {
             System.out.println("숫자를 입력하세요 (1: 정상 실행 , 그 외: IOException 발생): ");
