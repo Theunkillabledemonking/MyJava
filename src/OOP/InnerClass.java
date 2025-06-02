@@ -15,7 +15,6 @@ class NonInnerClassExample extends JFrame {
 
         // 외부 클래스 객체를 명시적으로 전달
         addMouseListener(new ExternalMouseEventHandler(this));
-
         setVisible(true);
     }
 
