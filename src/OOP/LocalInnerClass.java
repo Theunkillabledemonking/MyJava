@@ -31,7 +31,7 @@ class OuterClass {
                 System.out.println("내부 클래스의 this 참조: " + this.innerVal);
             }
         }
-        // 지역 내부 클래스 선언 끝==
+        // 지역 내부 클래스 선언 끝=
 
         // 지역 내부 클래스의 인스턴스 생성
         // outerMethod 내에서만 LocalInner 타입으로 선언하고 생성할 수 있습니다.
