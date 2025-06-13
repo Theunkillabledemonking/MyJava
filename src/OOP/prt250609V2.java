@@ -16,6 +16,7 @@ public class prt250609V2 extends JFrame {
             public void print() {
                 System.out.println("hello world");
             }
+
         };
     }
 }
